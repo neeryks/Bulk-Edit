@@ -12,14 +12,14 @@ This Python script provides a simple utility to replace header and footer conten
 1. **Clone the repository or download the script.**
 
     ```bash
-    git clone https://github.com/your-username/html-header-footer-replacer.git
-    cd html-header-footer-replacer
+    git clone https://github.com/neeryks/bulkedit.git
+    cd bulkedit
     ```
 
 2. **Run the script by executing the following command in your terminal.**
 
     ```bash
-    python replace_header_footer.py
+    python bulkedit.py
     ```
 
 3. **Enter the directory path where your HTML files are located when prompted.**
