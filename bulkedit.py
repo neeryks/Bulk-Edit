@@ -50,8 +50,9 @@ def update_links_paths(html_content, file_path):
         print(relative_path)
 
     # Adjust links, URLs, and paths based on the relative path
-    updated_content = re.sub(r'src="(?!https?://)', f'src="{relative_path}', html_content)
-    updated_content = re.sub(r'href="(?!https?://)', f'href="{relative_path}', updated_content)
+    updated_content = re.sub(r'src="(?!https?://|#)', f'src="{relative_path}', html_content)
+    updated_content = re.sub(r'href="(?!https?://|#)', f'href="{relative_path}', updated_content)
+
 
     return updated_content
 
