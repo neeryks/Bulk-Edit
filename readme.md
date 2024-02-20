@@ -12,8 +12,8 @@ This Python script provides a simple utility to replace header and footer conten
 1. **Clone the repository or download the script.**
 
     ```bash
-    git clone https://github.com/neeryks/bulkedit.git
-    cd bulkedit
+    git clone https://github.com/neeryks/Bulk-Edit.git
+    cd Bulk-Edit
     ```
 
 2. **Run the script by executing the following command in your terminal.**
